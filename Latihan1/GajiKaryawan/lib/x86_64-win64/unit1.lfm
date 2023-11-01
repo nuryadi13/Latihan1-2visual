@@ -44,9 +44,9 @@ object Form1: TForm1
     TabOrder = 1
   end
   object rgStatus: TRadioGroup
-    Left = 368
+    Left = 344
     Height = 101
-    Top = 19
+    Top = 24
     Width = 240
     AutoFill = True
     Caption = 'Status'

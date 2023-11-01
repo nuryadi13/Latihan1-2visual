@@ -51,14 +51,14 @@ implementation
 procedure TForm1.rbHonorerChange(Sender: TObject);
 begin
   if rbHonorer.Checked then
-    edtTunjangan.Caption := 'Status Tunjangan: Honorer (Rp. 500,000)';
+    edtTunjangan.Caption := '500000';
 
 end;
 
 procedure TForm1.rbTetapChange(Sender: TObject);
 begin
   if rbTetap.Checked then
-    edtTunjangan.Caption := 'Status Tunjangan: Tetap (Rp. 1,500,000)';
+    edtTunjangan.Caption := '1500000';
 end;
 
 procedure TForm1.rgStatusClick(Sender: TObject);
